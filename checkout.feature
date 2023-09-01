@@ -25,11 +25,7 @@
             Então deve exibir a mensagem de erro "Por favor, corrija o campo em destaque"
 
             Esquema do Cenário: Autenticar múltiplos cadastros
-            Quando eu digitar <nomecompleto>
-            E o <cpf>
-            E o <endereco>
-            E o <telefone>
-            E o <email>
+            Quando eu digitar <nomecompleto>, <cpf>, <endereco>, <telefone>, <email>
             Então deve exibir a <mensagem>
 
             Exemplos:
